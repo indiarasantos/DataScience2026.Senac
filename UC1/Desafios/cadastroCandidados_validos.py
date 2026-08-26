@@ -1,24 +1,25 @@
 # criando a lista de candidatos
-candidatos = []
+candidatos_validos = []
 
-# loop de validação e cadastro do candidato
-for i in range (13):
+# loop devalidação e cadastro do candidato
+for i in range (5):
     ano_de_nascimento = int(input("Digite seu ano de nascimento: "))
-    permissao = 2026 - ano_de_nascimento
+    idade = 2026 - ano_de_nascimento
 
-    # validando       
-    if permissao < 18:
+    # validando         
+    if idade < 18:
         print("Candidato não tem idade suficiente")
 
     # cadastrando
     else:
         nome = input("Digite seu nome: ")
-        telefone = input("Digite seu número de telefone: ")
         email = input("Digite seu e-mail: ")
+        telefone = input("Digite seu número de telefone: ")
 
         # adicionando candidato validado a lista
-        candidatos.append(f"({nome} - {permissao} anos)")
+        candidato = {"Nome":nome, "Idade":idade, "Email":email, "Telefone":telefone}
+        candidatos_validos.append(candidato)
 
         # mostrando resultado para o usuário
         print(f"Candidato {nome} cadastrado com sucesso!")
-        print(f"{candidatos}")
+        print(f"{candidatos_validos}")

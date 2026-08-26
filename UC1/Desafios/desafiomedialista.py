@@ -1,9 +1,9 @@
 # Programa para calculo de média do estudante
 print("====== MÉDIA DO ESTUDANTE ======")
 
-estudantes = []
+resultados = []
 
-for i in range (10):
+for i in range (5):
     # Recebendo notas do usuário já convertidas para float
     nome_estudante = input("Digite o nome do estudante: ")
     nota_1 = float(input("Digite a primeira nota: "))
@@ -22,8 +22,8 @@ for i in range (10):
     else:
         situacao = "Reprovado"
 
-    estudantes.append (f"{nome_estudante} - {situacao} com média {media:.1f}")
+    resultados.append (f"{nome_estudante} - {situacao}")
 
     # Mostrando resultado para usuário
     print(f"Estudante {nome_estudante} {situacao}, com média {media:.1f}!")
-    print(f"{estudantes}")
+    print(f"{resultados}")
