@@ -21,8 +21,6 @@ while controle < 10:
 
 print("Oficina lotada!")
 
-
-
 print("--- Simulação DO-WHILE (Executa 1ª vez, depois checa) ---")
 contador = 0
 limite = 5

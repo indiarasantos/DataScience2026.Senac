@@ -22,7 +22,7 @@ for i in range (5):
     else:
         situacao = "Reprovado"
 
-    resultados.append (f"{nome_estudante} - {situacao}")
+    resultados.append(f"{nome_estudante} - {situacao}")
 
     # Mostrando resultado para usuário
     print(f"Estudante {nome_estudante} {situacao}, com média {media:.1f}!")
