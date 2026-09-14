@@ -1,0 +1,15 @@
+
+> python -m venv .ambvirtual
+> .ambvirtual/Scripts/activate
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> .ambvirtual/Scripts/activate                       
+> ls         
+> cd UC2
+> cd Aula 1
+> py aula1.py
+> pip freeze
+> pip install pandas matplotlib seaborn
+> python.exe -m pip install --upgrade pip
+> pip freeze
+> pip freeze > requirements.txt                    
+> pip install -r requirements.txt
