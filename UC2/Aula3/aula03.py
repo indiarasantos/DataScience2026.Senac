@@ -14,3 +14,9 @@ q3 = np.percentile(dados,75)
 print("Primeiro Quartil (Q1):", q1)
 print("Primeiro Quartil (Q2):", q2)
 print("Primeiro Quartil (Q3):", q3)
+
+###
+df_transacoes = pd.read_excel('base_invest.xlsx', sheet_name='Transacoes')
+
+print(df_transacoes)
+
