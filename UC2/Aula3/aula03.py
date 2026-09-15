@@ -20,3 +20,19 @@ df_transacoes = pd.read_excel('base_invest.xlsx', sheet_name='Transacoes')
 
 print(df_transacoes)
 
+q1_preco = df_transacoes['preco'].quantile(0.25)
+q2_preco = df_transacoes['preco'].quantile(0.50)
+q3_preco = df_transacoes['preco'].quantile(0.75)
+
+print("Preço Q1:", q1_preco)
+print("Preço Mediana Q2:", q2_preco)
+print("Preço Q3:", q3_preco)
+
+# variável para o gráfico
+contagem_operacao = df_transacoes['operacao'].value_counts()
+
+# criando grafico de barras
+contagem_operacao.plot(kind='bar',title='Tipos de Operação')
+
+# mostrando gráfico
+plt.show()
