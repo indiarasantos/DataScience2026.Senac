@@ -2,5 +2,7 @@
 
 CREATE DATABASE meu_ecommerce;
 
+-- USANDO MEU BANCO DE DADOS:
+
 USE meu_ecommerce;
 
