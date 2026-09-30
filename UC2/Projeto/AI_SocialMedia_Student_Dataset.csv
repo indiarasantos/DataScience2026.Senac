@@ -1,4 +1,4 @@
-"ID_Estudante","Idade","Genero","Escolaridade","Horas_Diárias_Midias_Sociais","Horas_Diárias_Ferramenta_IA","Horas_Sono","Horas_Atividade_Fisica","Pontuação_Saúde_Mental","Pontuação_Saúde_Física"
+"ID_Estudante","Idade","Genero","Escolaridade","Horas_Diarias_Midias_Sociais","Horas_Diarias_Ferramenta_IA","Horas_Sono","Horas_Atividade_Fisica","Pontuacao_Saude_Mental","Pontuação_Saude_Fisica"
 "STU_00001","19","Masculino","Faculdade","5.32","1.21","7.3","1.41","74.06","98.9"
 "STU_00002","16","Nao binario","Ensino Medio","5.21","3.89","7.81","2.48","76.13","89.94"
 "STU_00003","25","Masculino","Universidade","3.61","2.65","6.34","0.06","65.01","76.75"
